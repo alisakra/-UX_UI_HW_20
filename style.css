@@ -64,6 +64,18 @@ header {
     position: center;
     display: inline-block;
 }
+.jumbotron h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #730202;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.jumbotron {
+    background-color:rgba(219, 217, 217, 0.8);
+    color: black;
+    height: auto;
+}
 #showcase {
   display: flex;
   height: auto;
@@ -130,6 +142,33 @@ button a:hover {
     color: white;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   }
+
+  .accordion p {
+    text-align: left;
+    }
+    .accordion button {
+        color:black;
+        font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+        text-decoration: none;
+    }
+    .accordion button:hover { 
+        background-color: white;
+        color:#730202;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+        text-decoration: none;
+    }
+    .accordion button a:hover {
+        background-color: white; 
+        color:#730202;
+      }
+    
+
+
+
+
 .flexContainer {
     display: flex;
     height: 300px;
